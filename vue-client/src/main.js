@@ -8,9 +8,8 @@ import axios from 'axios'
 import App from './App.vue'
 import router from './router'
 import PrimeVue from "primevue/config";
-import useAuth from './composables/useAuth'
+import  { useAuthStore }  from '@/stores/auth.js';
 
-const { attempt } = useAuth()
 
 axios.defaults.baseURL = 'http://ryo-advocate.test'
 axios.defaults.withCredentials = true
@@ -24,6 +23,8 @@ app.use(PrimeVue, {
     theme: 'none'
 });
 
-attempt().then(() => {
+const authStore = useAuthStore()
+
+authStore.attempt().then(() => {
 app.mount('#app')
 })
