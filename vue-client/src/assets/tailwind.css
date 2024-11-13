@@ -2,3 +2,114 @@
 @import "tailwindcss/components";
 @import "./primevue/tailwind.css";
 @import "tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@layer base {
+  /* Gotham Thin */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Thin.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+  }
+
+  /* Gotham Thin Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-ThinItalic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+  }
+
+  /* Gotham Light */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Light.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Gotham Light Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-LightItalic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+  }
+
+  /* Gotham Normal */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  /* Gotham Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Italic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Italic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+  }
+
+  /* Gotham Medium */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Medium.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  /* Gotham Medium Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-MediumItalic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+  }
+
+  /* Gotham Bold */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Bold.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  /* Gotham Bold Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-BoldItalic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-BoldItalic.woff") format("woff");
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  /* Gotham Black */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-Black.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+  }
+
+  /* Gotham Black Italic */
+  @font-face {
+    font-family: "Gotham";
+    src: url("@/assets/fonts/Gotham/Gotham-BlackItalic.woff2") format("woff2"),
+      url("@/assets/fonts/Gotham/Gotham-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+  }
+}

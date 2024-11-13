@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      sans: ['Gotham', 'sans-serif'],
+      serif: ['Playfair Display', 'serif']
+
+    }
   },
   plugins: [require('tailwindcss-primeui')],
   darkMode: 'selector'
